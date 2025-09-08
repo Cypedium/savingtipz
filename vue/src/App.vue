@@ -1,12 +1,16 @@
 <script setup>
 import HelloWorld from './components/HelloWorld.vue'
+import Navbar from './components/Navbar.vue'
 </script>
 
 <template>
-  <HelloWorld msg="Hello Side Project!" />
+  <Navbar />
+  <br/><br/>
+    <HelloWorld msg="Saving Tipz" />
 </template>
 
 <style scoped>
+
 .logo {
   height: 6em;
   padding: 1.5em;
