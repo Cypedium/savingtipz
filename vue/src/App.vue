@@ -1,12 +1,12 @@
 <script setup>
-import HelloWorld from './components/HelloWorld.vue'
-import Navbar from './components/Navbar.vue'
+import SavingTipz from './components/SavingTipz.vue'
+import Navbar from './components/layout/Navbar.vue'
 </script>
 
 <template>
+  <br />
   <Navbar />
-  <br/><br/>
-    <HelloWorld msg="Saving Tipz" />
+  <SavingTipz msg="Saving Tipz" />
 </template>
 
 <style scoped>
@@ -23,4 +23,5 @@ import Navbar from './components/Navbar.vue'
 .logo.vue:hover {
   filter: drop-shadow(0 0 2em #42b883aa);
 }
+
 </style>

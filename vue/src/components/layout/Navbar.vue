@@ -31,6 +31,7 @@ const toggleMenu = () => {
     font-family: Arial, Helvetica, sans-serif;
     position: fixed;
     top: 0;
+    left: 0;
     width: 100%;
     z-index: 1000;
     align-items: center;
@@ -82,7 +83,7 @@ const toggleMenu = () => {
         display: none;
         flex-direction: column;
         justify-items: flex-start;
-        background-color: #1f2937;
+        background-color: #3b82f6;
         position: relative;
         top: 0px;
         right: 0px;
