@@ -1,15 +1,18 @@
 package com.sideprojectstarter.dao;
-import com.sideproject.starter.dao.JdbcHelloWorldDao;
+
+import com.sideproject.starter.dao.JdbcSavingTipzDao;
 import org.junit.Before;
 import org.junit.Test;
 
-public class JdbcHelloWorldDaoTests extends BaseDaoTests{
+import javax.sql.DataSource;
 
-    private JdbcHelloWorldDao dao;
+public class JdbcSavingTipzDaoTests extends BaseDaoTests{
+
+    private JdbcSavingTipzDao dao;
 
     @Before
     public void setup(){
-        dao = new JdbcHelloWorldDao(dataSource);
+        dao = new JdbcSavingTipzDao(dataSource);
     }
 
     @Test
