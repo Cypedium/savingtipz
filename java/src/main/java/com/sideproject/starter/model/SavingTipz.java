@@ -1,15 +1,15 @@
 package com.sideproject.starter.model;
 
-public class HelloWorld {
+public class SavingTipz {
 
 private String message;
 
 
-    public HelloWorld(String message) {
+    public SavingTipz(String message) {
         this.message = message;
     }
 
-    public HelloWorld() {
+    public SavingTipz() {
     }
 
     public String getMessage() {

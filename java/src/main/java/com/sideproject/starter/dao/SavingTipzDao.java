@@ -1,14 +1,16 @@
 package com.sideproject.starter.dao;
 
-import com.sideproject.starter.model.HelloWorld;
+import com.sideproject.starter.model.SavingTipz;
 
 import java.util.List;
 
-public interface HelloWorldDao {
+public interface SavingTipzDao {
 
-    public HelloWorld getHelloWorld();
+    public SavingTipz getSavingTipz();
 
-    public List<HelloWorld> getAllHelloWorlds();
+    public List<SavingTipz> getAllSavingTipzs();
 
-    public HelloWorld addMessage(HelloWorld helloWorld);
+    public SavingTipz addMessage(SavingTipz savingTipz);
+
+    public void deleteMessage(String messages);
 }
